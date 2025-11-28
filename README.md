@@ -21,13 +21,20 @@ Ce repository contient une application React orientée « landing page » avec u
 ## Prérequis
 
 - Node.js ≥ 18 (LTS recommandé)
-- npm (ou yarn/pnpm)
+- pnpm ≥ 8 (gestionnaire de paquets officiel du projet)
 - Git
 
-Vérifiez votre version de Node.js:
+Vérifiez vos versions:
 
 ```bash
 node -v
+pnpm -v
+```
+
+Pour installer pnpm si vous ne l'avez pas:
+
+```bash
+npm install -g pnpm
 ```
 
 ## Démarrage rapide (développement)
@@ -39,31 +46,31 @@ node -v
    ```
 2. Installer les dépendances:
    ```bash
-   npm install
+   pnpm install
    ```
 3. Lancer le serveur de dev (HMR):
    ```bash
-   npm run dev
+   pnpm dev
    ```
-   Par défaut l’app sera disponible sur `http://localhost:5173`.
+   Par défaut l'app sera disponible sur `http://localhost:5173`.
 
 ## Scripts disponibles
 
-- `npm run dev` — lance le serveur de développement
-- `npm run build` — génère un build de production optimisé
-- `npm run preview` — prévisualise localement le build production
-- `npm run lint` — exécute ESLint sur le projet
+- `pnpm dev` — lance le serveur de développement
+- `pnpm build` — génère un build de production optimisé
+- `pnpm preview` — prévisualise localement le build production
+- `pnpm lint` — exécute ESLint sur le projet
 
 ## Linting et qualité de code
 
 Vérifier les problèmes de lint:
 ```bash
-npm run lint
+pnpm lint
 ```
 
-(Optionnel) Corriger automatiquement quand c’est possible:
+(Optionnel) Corriger automatiquement quand c'est possible:
 ```bash
-npm run lint -- --fix
+pnpm lint -- --fix
 ```
 
 ## Structure (générale)
@@ -80,7 +87,7 @@ elegant-prod-landing-page/
 
 Créer un build de production:
 ```bash
-npm run build
+pnpm build
 ```
 Le dossier `dist/` contient les fichiers statiques à déployer (Vercel, Netlify, GitHub Pages, S3, etc.).
 
@@ -88,5 +95,5 @@ Le dossier `dist/` contient les fichiers statiques à déployer (Vercel, Netlify
 
 1. Créez une branche: `git checkout -b feature/ma-feature`
 2. Développez et testez localement
-3. Assurez-vous que le lint passe: `npm run lint`
+3. Assurez-vous que le lint passe: `pnpm lint`
 4. Ouvrez une Pull Request avec une description claire
