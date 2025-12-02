@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "Je suis basé à Lubumbashi/Goma, pouvez-vous travailler avec moi ?",
-    a: "Oui. Bien que basés principalement à Kinshasa, nous travaillons avec des clients dans toute la RDC et à l'international via visioconférence."
+    a: "Oui. Bien que basés principalement à Kinshasa, nous travaillons avec des clients dans toute la RDC et à l'international via visioconférence.Bien évidement sur nos différentes plate-forme réseaux tels que : Teams microsoft,Discord et ZOOM "
   }
 ];
 
