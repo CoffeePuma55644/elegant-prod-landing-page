@@ -12,7 +12,7 @@ const CTA = () => {
           Prêt à élever vos standards ?
         </h2>
         <p className="text-xl text-gray-600 mb-10 font-light">
-          Ne laissez pas un site web médiocre freiner la croissance de votre entreprise. Discutons de votre vision.
+          Contactez-nous
         </p>
 
         <form className="max-w-md mx-auto space-y-4 text-left bg-white p-8 rounded-sm shadow-xl border border-gray-100">
@@ -42,7 +42,7 @@ const CTA = () => {
             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
           </button>
           <p className="text-xs text-center text-gray-400 mt-4">
-            Réponse sous 24h. Pas de spam, promis.
+            Réponse sous 24h.
           </p>
         </form>
       </div>
