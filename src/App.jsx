@@ -39,7 +39,6 @@ const App = () => {
         <ProblemSolution />
         <Services />
         <Portfolio />
-        <Testimonials />
         <FAQ />
         <CTA />
       </main>

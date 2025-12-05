@@ -4,11 +4,11 @@ import { Plus, Minus } from 'lucide-react';
 const faqs = [
   {
     q: "Combien coûte un site web avec Elegant ?",
-    a: "Chaque projet est unique. Nous ne proposons pas de forfaits génériques, mais des solutions sur-mesure. Cependant, nos projets commencent généralement à partir de $1000 pour un site vitrine premium."
+    a: "Chaque projet est unique. Nous ne proposons pas de forfaits génériques, mais des solutions sur-mesure. Cependant, nos projets commencent généralement à partir de $150 pour un site vitrine simple ."
   },
   {
     q: "Combien de temps prend la création ?",
-    a: "Pour un site vitrine standard, comptez entre 2 à 4 semaines. Pour des plateformes plus complexes, cela peut aller de 6 à 12 semaines. Nous privilégions la qualité à la précipitation."
+    a: "Pour un site vitrine standard, comptez entre 2 à 4 semaines. Pour des plateformes plus complexes, cela peut aller de 6 à 12 semaines. Nous privilégions la qualité à la précipitation.A savoir aussi que nous faisons nos sites en fonction de demande de notre clientéle ."
   },
   {
     q: "Assurez-vous la maintenance après la mise en ligne ?",
@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "Je suis basé à Lubumbashi/Goma, pouvez-vous travailler avec moi ?",
-    a: "Oui. Bien que basés principalement à Kinshasa, nous travaillons avec des clients dans toute la RDC et à l'international via visioconférence."
+    a: "Oui. Bien que basés principalement à Kinshasa, nous travaillons avec des clients dans toute la RDC et à l'international via visioconférence.Bien évidement sur nos différentes plate-forme réseaux tels que : Teams microsoft,Discord et ZOOM "
   }
 ];
 
