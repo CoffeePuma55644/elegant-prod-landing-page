@@ -24,6 +24,8 @@ const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
+
+
     <section id="faq" className="py-24 bg-white">
       <div className="max-w-3xl mx-auto px-6">
         
@@ -48,6 +50,16 @@ const FAQ = () => {
                   <Plus size={20} className="text-black shrink-0" />
                 )}
               </button>
+              
+    <div className="overflow-x-auto">
+  <table className="min-w-full">
+    {/* ton contenu de tableau */}
+  </table>
+</div>
+<td className="max-h-32 overflow-y-auto align-top">
+ {row.description}
+</td>
+
               
               <div 
                 className={`overflow-hidden transition-all duration-300 ease-in-out ${
